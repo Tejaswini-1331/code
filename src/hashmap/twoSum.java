@@ -16,9 +16,9 @@ public class twoSum {
         return ans;
     }
     public static void main(String[] args) {
-        int [] a ={1,5,7,-1};
+        int [] a = {1,5,7,-1};
         int [] ans = sum(a,6);
-        for(var e:ans){
+        for(var e: ans){
             System.out.print(e+" ");
         }
     }

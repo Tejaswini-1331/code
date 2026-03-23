@@ -28,7 +28,7 @@ public class armStrong {
           int last = lastDigit(n);
           int expo = expo(last,count);
           System.out.println(last+"  "+expo);
-          ans = ans+expo;
+          ans = ans + expo;
           n=n/10;
 
         }

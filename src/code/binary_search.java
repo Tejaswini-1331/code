@@ -51,7 +51,7 @@ public class binary_search {
                 end = mid-1;
             }
             else{
-                ans=mid;
+                ans=mid; // update ans then move on bcz we have to find bigger number
                 start = mid+1;
             }
         }

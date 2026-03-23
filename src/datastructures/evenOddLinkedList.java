@@ -1,5 +1,7 @@
 package datastructures;
 
+import java.util.LinkedList;
+
 public class evenOddLinkedList {
     public static void display(Node head){
         while(head!=null){
@@ -84,6 +86,11 @@ public class evenOddLinkedList {
         display(a);
         Node ans =copyRandomList(a);
         display(ans);
+
+        LinkedList p = new LinkedList<>();
+        p.add(10); p.add(20); p.add(30); p.add(40); p.add(50); p.add(60);
+
+        System.out.println(p);
 
     }
 }

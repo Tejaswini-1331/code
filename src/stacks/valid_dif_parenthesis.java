@@ -27,5 +27,8 @@ public class valid_dif_parenthesis {
     public static void main(String[] args) {
         String str = "(])";
         System.out.println(isValid(str));
+
+        StringBuilder sb = new StringBuilder();
+
     }
 }
